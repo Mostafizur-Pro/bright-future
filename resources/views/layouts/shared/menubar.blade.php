@@ -7,34 +7,40 @@
         </svg>
       </label>
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow-lg bg-white rounded-lg w-52">
-        <li><a>Item 1</a></li>
+      <li><a href="{{url('/')}}">HOME</a></li>
         <li>
-          <a>Parent</a>
+          <a>Page</a>
           <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
+          <li><a href="{{url('/faq')}}">FAQ</a></li>
+          <li><a href="{{url('/blog')}}">Blog</a></li>
+          <li><a href="{{url('/contact')}}">Contact</a></li>
           </ul>
         </li>
-        <li><a>Item 3</a></li>
+        <li><a href="{{url('/course')}}">Course</a></li>
+      <li><a href="{{url('/about')}}">ABOUT</a></li>
+      <li><a href="{{url('/dashboard')}}">Dashboard</a></li>
       </ul>
     </div>
-    <a href="/" class="btn btn-ghost normal-case text-xl">BRIGHT FUTURE</a>
+    <a href="{{url('/')}}" class="btn btn-ghost normal-case text-xl">BRIGHT FUTURE</a>
   </div>
 
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a href="/">HOME</a></li>
+      <li><a href="{{url('/')}}">HOME</a></li>
       <li class="dropdown">
-        <label tabindex="0">COURSE</label>
+        <label tabindex="0">Page</label>
         <ul tabindex="0" class="dropdown-content z-50 menu p-2 shadow-lg bg-white rounded-lg w-52">
-          <li><a>AutoCAD 2d</a></li>
-          <li><a>AutoCAD 3d</a></li>
+          <li><a href="{{url('/faq')}}">FAQ</a></li>
+          <li><a href="{{url('/blog')}}">Blog</a></li>
+          <li><a href="{{url('/contact')}}">Contact</a></li>
         </ul>
       </li>
-      <li><a>ABOUT</a></li>
+      <li><a href="{{url('/course')}}">Course</a></li>
+      <li><a href="{{url('/about')}}">ABOUT</a></li>
+      <li><a href="{{url('/dashboard')}}">Dashboard</a></li>
     </ul>
   </div>
   <div class="navbar-end">
-    <a href="/login" class="btn">LOGIN</a>
+    <a href="{{url('/login')}}" class="btn">LOGIN</a>
   </div>
 </div>

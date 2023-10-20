@@ -25,10 +25,11 @@
     @include('components/welcome/banner')
     @include('components/welcome/popularCourses')
     @include('components/welcome/events')
-
-
-
-
+    
+    
+    
+    
+    @include('layouts/shared/footer')
 
 </body>
 

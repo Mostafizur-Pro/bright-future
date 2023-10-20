@@ -1,4 +1,4 @@
-<div class="navbar bg-base-300">
+<div class="navbar bg-base-300 z-40 fixed top-0 w-full">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -18,24 +18,23 @@
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl">BRIGHT FUTURE</a>
+    <a href="/" class="btn btn-ghost normal-case text-xl">BRIGHT FUTURE</a>
   </div>
 
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a>HOME</a></li>
+      <li><a href="/">HOME</a></li>
       <li class="dropdown">
         <label tabindex="0">COURSE</label>
         <ul tabindex="0" class="dropdown-content z-50 menu p-2 shadow-lg bg-white rounded-lg w-52">
           <li><a>AutoCAD 2d</a></li>
           <li><a>AutoCAD 3d</a></li>
-          
         </ul>
       </li>
       <li><a>ABOUT</a></li>
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn">LOGIN</a>
+    <a href="/login" class="btn">LOGIN</a>
   </div>
 </div>

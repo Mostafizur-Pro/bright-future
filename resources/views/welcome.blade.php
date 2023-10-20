@@ -22,6 +22,9 @@
     @include('layouts/shared/menubar')
     @include('components/welcome/slider')
     @include('components/welcome/feature')
+    @include('components/welcome/banner')
+    @include('components/welcome/popularCourses')
+    @include('components/welcome/events')
 
 
 

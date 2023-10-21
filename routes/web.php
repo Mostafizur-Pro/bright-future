@@ -31,6 +31,9 @@ Route::get('/basic-autocad-3d', function () {
 Route::get('/basic-sketchup-3d', function () {
     return view('/course-details/autocad/basic-sketchup-3d');
 });
+Route::get('/javascript', function () {
+    return view('/course-details/programming/javascript');
+});
 
 Route::get('/login', function () {
     return view('/auth/login');

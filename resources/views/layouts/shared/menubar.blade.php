@@ -7,18 +7,26 @@
         </svg>
       </label>
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow-lg bg-white rounded-lg w-52">
-      <li><a href="{{url('/')}}">HOME</a></li>
+        <li><a href="{{url('/')}}">HOME</a></li>
         <li>
           <a>Page</a>
           <ul class="p-2">
-          <li><a href="{{url('/faq')}}">FAQ</a></li>
-          <li><a href="{{url('/blog')}}">Blog</a></li>
-          <li><a href="{{url('/contact')}}">Contact</a></li>
+            <li><a href="{{url('/faq')}}">FAQ</a></li>
+            <li><a href="{{url('/blog')}}">Blog</a></li>
+            <li><a href="{{url('/contact')}}">Contact</a></li>
           </ul>
         </li>
-        <li><a href="{{url('/course')}}">Course</a></li>
-      <li><a href="{{url('/about')}}">ABOUT</a></li>
-      <li><a href="{{url('/dashboard')}}">Dashboard</a></li>
+        <li>
+          <a>Course Details</a>
+          <ul class="p-2">
+            <li><a href="{{url('/faq')}}">FAQ</a></li>
+            <li><a href="{{url('/blog')}}">Blog</a></li>
+            <li><a href="{{url('/contact')}}">Contact</a></li>
+          </ul>
+        </li>
+        <!-- <li><a href="{{url('/course')}}">Course Details</a></li> -->
+        <li><a href="{{url('/about')}}">ABOUT</a></li>
+        <li><a href="{{url('/dashboard')}}">Dashboard</a></li>
       </ul>
     </div>
     <a href="{{url('/')}}" class="btn btn-ghost normal-case text-xl">BRIGHT FUTURE</a>
@@ -35,7 +43,16 @@
           <li><a href="{{url('/contact')}}">Contact</a></li>
         </ul>
       </li>
-      <li><a href="{{url('/course')}}">Course</a></li>
+      <li class="dropdown">
+        <label tabindex="0">Course Details</label>
+        <ul tabindex="0" class="dropdown-content z-50 menu p-2 shadow-lg bg-white rounded-lg w-52">
+          <li><a href="{{url('/basic-autocad')}}">AutoCAD Course</a></li>
+          <li><a href="{{url('/programming-courses')}}">Programming Courses</a></li>
+          <li><a href="{{url('/graphic-design-courses')}}">Graphic Design Courses</a></li>
+          <li><a href="{{url('/mep-courses')}}">MEP Courses</a></li>
+        </ul>
+      </li>
+      <!-- <li><a href="{{url('/course')}}">Course</a></li> -->
       <li><a href="{{url('/about')}}">ABOUT</a></li>
       <li><a href="{{url('/dashboard')}}">Dashboard</a></li>
     </ul>

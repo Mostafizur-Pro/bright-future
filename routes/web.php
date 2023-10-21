@@ -16,8 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('/welcome');
 });
-Route::get('/course', function () {
-    return view('/course');
+// Route::get('/course', function () {
+//     return view('/course');
+// });
+Route::get('/basic-autocad', function () {
+    return view('/course-details/autocad/basic-autocad');
 });
 
 Route::get('/login', function () {

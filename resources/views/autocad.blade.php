@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bright Future</title>
+    <title>@yield('title', 'Default Title')</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -20,12 +20,28 @@
 
 <body>
     @include('layouts/shared/menubar')
- 
-    course
+
+
+    <div class="my-20">
+        @section('autocad-cover', 'Basic AutoCAD')
+        @include('components/autocad/cover')
+
     
-    
-    
-    
+        <div class="grid grid-cols-4 mx-20 mt-10 gap-4">
+            <div class="col-span-1">
+                @include('components/autocad/category')
+            </div>
+
+            <div class="col-span-3">
+                @yield('autocad')
+
+            </div>
+        </div>
+    </div>
+
+
+
+
     @include('layouts/shared/footer')
 
 </body>

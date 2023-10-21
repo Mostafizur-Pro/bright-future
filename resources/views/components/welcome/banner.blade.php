@@ -3,7 +3,7 @@
         <img src="{{ asset('assets/home/banner/banner.jpg') }}" class="max-w-lg rounded-lg " />
         <div>
 
-            <h1 class="text-3xl font-bold"> Always Push Yourself to The Next Leve</h1>
+            <h1 class="text-3xl font-bold"> Always Push Yourself to The Next Level</h1>
             <div class="collapse collapse-plus ">
                 <input type="radio" name="my-accordion-3" checked="checked" />
                 <div class="collapse-title text-xl font-medium">

@@ -7,14 +7,14 @@
                     <img class="w-20 mx-auto" src="{{url('assets/home/feature/programming.png')}}" alt="Programming Courses" />
                 </figure>
                 <div class="card-body">
-                    <h2 class="card-title text-center">Programming Courses</h2>
-                    <div class="text-left">
+                    <h2 class="card-title text-center">Programming</h2>
+                    <!-- <div class="text-left">
 
                         <li>Laravel Development</li>
                         <li>ReactJS Development</li>
                         <li>Redux Development</li>
                         <li>NextJS Development</li>
-                    </div>
+                    </div> -->
                     <div class="card-actions justify-center">
                         <!-- <button class="btn btn-primary">Buy Now</button> -->
                     </div>
@@ -28,13 +28,13 @@
                     <img class="w-20 mx-auto" src="{{url('assets/home/feature/graphic.png')}}" alt="Graphic Design Courses" />
                 </figure>
                 <div class="card-body">
-                    <h2 class="card-title text-center">Graphic Design Courses</h2>
-                    <div class="text-left">
+                    <h2 class="card-title text-center">Graphic Design </h2>
+                    <!-- <div class="text-left">
                         <li>Adobe PhotoShop Fundamentals</li>
                         <li>Adobe Illustrator for Vector Graphics</li>
                         <li>Adobe InDesign for Print Design</li>
                         <li>Typography and Layout Design</li>
-                    </div>
+                    </div> -->
                     <div class="card-actions justify-center">
                         <!-- <button class="btn btn-primary">Buy Now</button> -->
                     </div>
@@ -48,15 +48,15 @@
                     <img class="w-20 mx-auto" src="{{url('assets/home/feature/autocad.png')}}" alt="AutoCAD Course" />
                 </figure>
                 <div class="card-body">
-                    <h2 class="card-title text-center">AutoCAD Course</h2>
+                    <h2 class="card-title text-center">AutoCAD </h2>
 
-                    <div class="text-left">
+                    <!-- <div class="text-left">
 
                         <li>AutoCAD basic</li>
                         <li>2D Drafting with AutoCAD</li>
                         <li>3D Modeling with AutoCAD</li>
                         <li>3D Modeling with SketchUp</li>
-                    </div>
+                    </div> -->
                     <div class="card-actions justify-center">
                         <!-- <button class="btn btn-primary">Buy Now</button> -->
                     </div>
@@ -70,13 +70,13 @@
                     <img class="w-20 mx-auto" src="{{url('assets/home/feature/mep.png')}}" alt="MEP Course" />
                 </figure>
                 <div class="card-body">
-                    <h2 class="card-title text-center">MEP Course</h2>
-                    <div class="text-left">
+                    <h2 class="card-title text-center">MEP </h2>
+                    <!-- <div class="text-left">
                         <li>HVAC (Heating, Ventilation, and Air Conditioning) Design and Engineering</li>
                         <li>Plumbing and Piping Systems Design</li>
                         <li>Fire Protection, and Detection Systems Design</li>
                         <li>Electrical Systems Design</li>
-                    </div>
+                    </div> -->
                     <div class="card-actions justify-center">
                         <!-- <button class="btn btn-primary">Buy Now</button> -->
                     </div>

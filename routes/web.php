@@ -22,6 +22,15 @@ Route::get('/', function () {
 Route::get('/basic-autocad', function () {
     return view('/course-details/autocad/basic-autocad');
 });
+Route::get('/advance-autocad', function () {
+    return view('/course-details/autocad/advance-autocad');
+});
+Route::get('/basic-autocad-3d', function () {
+    return view('/course-details/autocad/basic-autocad-3d');
+});
+Route::get('/basic-sketchup-3d', function () {
+    return view('/course-details/autocad/basic-sketchup-3d');
+});
 
 Route::get('/login', function () {
     return view('/auth/login');

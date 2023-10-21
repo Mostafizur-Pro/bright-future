@@ -23,7 +23,7 @@
 
 
     <div class="my-20">
-        @section('autocad-cover', 'Basic AutoCAD')
+        @section('autocad-cover', 'AutoCAD Course')
         @include('components/autocad/cover')
 
     

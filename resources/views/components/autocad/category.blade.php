@@ -18,8 +18,17 @@
     <div>
         <h1 class="text-2xl font-bold">Categories</h1>
         <div class=" my-2 ">
-            <li className="my-3">
-                <a href="{{url('/basic-autocad')}}">Basic AutoCAD 2D Course</a>
+            <li className="my-5">
+                <a href="{{url('/basic-autocad')}}">Basic AutoCAD 2D </a>
+            </li>
+            <li className="my-5">
+                <a href="{{url('/advance-autocad')}}">Advanced AutoCAD 2D </a>
+            </li>
+            <li className="my-5">
+                <a href="{{url('/basic-autocad-3d')}}">Basic AutoCAD 3D </a>
+            </li>
+            <li className="my-5">
+                <a href="{{url('/basic-sketchup-3d')}}">Basic SketchUp 3D </a>
             </li>
         </div>
     </div>
